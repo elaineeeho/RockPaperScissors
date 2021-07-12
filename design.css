@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(254,226,255);
+    background: linear-gradient(90deg, rgba(254,226,255,1) 0%, rgba(201,201,255,1) 50%, rgba(168,240,255,1) 100%);
+}
+
+header {
+    padding: 20px;
+}
+
+header > h1 {
+
+    color: #FFFDEA;
+    text-align: center;
+    text-shadow: 1px 1px 2px blanchedalmond;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+body > h1 {
+    color: #FFFDEA;
+    text-shadow: 1px 1px 2px blanchedalmond;
+    text-align: center;
+}
+
+.score-board {
+    margin: 20px auto;
+    border: 3px solid white;
+    border-radius: 4px;
+    text-align: center;
+    width: 200px;
+    color: white;
+    font-size: 46px;
+    padding: 15px 20px;
+    font-family: 'Courier New', Courier, monospace;
+    position: relative;
+}
+
+.badge {
+    background: #e258e2;
+    color: white;
+    font-size: 14px;
+    padding: 2px 10px;
+    font-family:'Courier New', Courier, monospace;
+}
+
+#user-label {
+    position: absolute;
+    top: 30px;
+    left: -25px;
+}
+
+#computer-label {
+    position: absolute;
+    top: 30px;
+    right: -30px;
+}
+
+.result {
+    font-size: 40px;
+    color: #FFFDEA;
+    text-shadow: 1px 1px 2px blanchedalmond;
+
+}
+
+.result > p {
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+.row {
+    margin: 50px 0;
+    text-align: center;
+}
+
+.column {
+    display: inline-block;
+}
+
+.choice:hover {
+    cursor: pointer;
+    background: #FFFDEA;
+}
+
+#action-message{
+    text-align: center;
+    color:aquamarine;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 20px;
+}
