@@ -76,10 +76,9 @@ function game(userChoice){
 function main(){
     rock_div.addEventListener('click',() => game("r"));
 
+    rock_div.addEventListener('click', () => game("p"));
 
-rock_div.addEventListener('click', () => game("p"));
-
-rock_div.addEventListener('click', () => game("s"));
+    rock_div.addEventListener('click', () => game("s"));
 }
 
 main();
