@@ -3,9 +3,7 @@
     <head>
         <meta charset = "utf-8">
         <title> Virtual Rock Paper Scissors! </title>
-        <link rel = "stylesheet" href = "styles.css">
-        <script src="game.js"></script>
-    </head>
+         <link rel = "stylesheet" href = "styles.css">
     <body>
         <header>
         <h1> Virtual Rock Paper Scissors!</h1>
@@ -21,16 +19,20 @@
             <p> Paper beats Rock. You have won this round.</p>
         </div>
 
-        <div class = "row">
-            <div class = "column" id = "choices">
-                <input type="image" name="rock" src = "https://i.redd.it/yknsk88805a61.jpg" width = 500px height = 500 px id = "r">
-                <input type="image" name="paper" src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTydRw2N4_pLz0ezehr8LcScU-ARWiLoUfm5OiwYyuEe-4XVe0XzAdqdY-b5VIBSaSgoC4&usqp=CAU" width = 500px height = 500 px id = "p">
-                <input type="image" name="scissors" src = "https://chuatekming.files.wordpress.com/2015/02/mikoto-urabe.jpg?w=296&h=288" width = 500px height = 500 px id = "s">
+        <div class = "choices">
+            <div class = "choice" id = "r"> 
+                <img src =  "images/rock.PNG" alt = "rock">
+            </div>
+            <div class = "choice" id = "p">
+                <img src= "images/paper.PNG" alt ="paper">
+            </div>
+            <div class = "choice" id = "s">
+                <img src = "images/scissors.PNG" alt = "scissors">
             </div>
         </div>
 
         <h1 id = "action-message"> Choose your next move! </h1>
-        <script src = ""game.js" charset = "utf-8"></script>
+        <script src = "app.js" charset = "utf-8"></script>
     </body>
 
 </html>
