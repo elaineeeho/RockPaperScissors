@@ -72,12 +72,21 @@ function game(userChoice){
             break;
     }
 }
+<<<<<<< HEAD:app.js
 
 function main(){
 
     rock_div.addEventListener('click', () => game("r"));
     paper_div.addEventListener('click', () => game("p"));
     scissors_div.addEventListener('click', () => game("s"));
+=======
+function main(){
+    rock_div.addEventListener('click',() => game("r"));
+
+    rock_div.addEventListener('click', () => game("p"));
+
+    rock_div.addEventListener('click', () => game("s"));
+>>>>>>> 08eddf0b88a624db9bfa34f5511a3146dc78f062:game.js
 }
 
 main();
