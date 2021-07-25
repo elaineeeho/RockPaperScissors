@@ -91,11 +91,6 @@ body > h1 {
 
 }
 
-.row:hover{
-    cursor: pointer;
-    background: rgba(0, 162, 255, 0.884);
-}
-
 #action-message {
     text-align: center;
     color: white;
